@@ -1,91 +1,223 @@
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+.valkommen {
+  text-align: center;
+}
+
+.creator {
+  text-align: center;
+}
+
+.creator img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.progress {
+  text-align: center;
+}
+
+.progress div {
+  display: inline-block;
+}
+
+.progress img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+.progress p {
+  text-align: center;
+}
+
+.before p, .after p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.test-yourself {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.testbutton {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.testbutton:hover {
+  background-color: #27ae60;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.category {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 80%;
+  
+}
+
+.category h2 {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.difficulty {
+  display: flex;
+  justify-content: center; 
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #2ecc71;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-  }
-  
-  header {
-    background-color: #2ecc71;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  nav li {
-    margin: 0 15px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-  }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  aside {
-    grid-column: 1 / span 1;
-  }
-  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
 
-  .valkommen {
-    text-align: center;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 
-  .creator {
-    text-align: center;
-  }
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+aside {
+  grid-column: 1 / span 1;
+}
+
+footer {
+  background-color: #2ecc71;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
   
-  .creator img {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .progress {
-    text-align: center;
-  }
-  
-  .progress div {
-    display: inline-block;
-  }
-  
-  .progress img {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-  }
-  
-  .progress p {
-    text-align: center;
-  }
-  
-  .before p, .after p {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  
-  
-  footer {
-    background-color: #2ecc71;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-  }
+button:hover {
+  background-color: #27ae60;
+}
 
   
