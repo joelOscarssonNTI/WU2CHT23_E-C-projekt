@@ -61,16 +61,25 @@ body {
     text-align: center;
   }
   
+  .progress div {
+    display: inline-block;
+  }
+  
   .progress img {
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
   }
   
   .progress p {
     text-align: center;
   }
+  
+  .before p, .after p {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
   
   footer {
     background-color: #2ecc71;
@@ -78,4 +87,5 @@ body {
     padding: 10px;
     text-align: center;
   }
+
   
