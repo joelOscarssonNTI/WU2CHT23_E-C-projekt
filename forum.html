@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <title>CodeCrafters</title>
 </head>
 <body>
@@ -19,9 +20,65 @@
     </nav>
   </header>
 
-  <main>
+    <section id="forum">
+      <h2>Forum</h2>
+      <h3>Fråga andra använare och experter vid behov av hjälp!</h3>
 
-  </main>
+     
+      <div class="thread-list">
+        <div class="category">
+          <h3>Webbutveckling</h3>
+          <ul>
+            <li><a href="#">HTML-problem</a></li>
+            <li><a href="#">CSS-stylingfrågor</a></li>
+            <li><a href="#">JavaScript-frågestund</a></li>
+            <li><a href="#">Webbutvecklingsverktyg</a></li>
+            <li><a href="#">Responsiv design</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="category">
+          <h3>Ruby</h3>
+          <ul>
+            <li><a href="#">Ruby on Rails-frågor</a></li>
+            <li><a href="#">Ruby-syntaxproblem</a></li>
+            <li><a href="#">Gem-installationsproblem</a></li>
+            <li><a href="#">Rails MVC-arkitektur</a></li>
+            <li><a href="#">Ruby Metaprogramming</a></li>            
+          </ul>
+        </div>
+
+        <div class="category">
+          <h3>JavaScript</h3>
+          <ul>
+            <li><a href="#">Vanilla JavaScript-frågor</a></li>
+            <li><a href="#">React-problem</a></li>
+            <li><a href="#">Node.js-frågestund</a></li>
+            <li><a href="#">Webpack-konfigurationsproblem</a></li>
+            <li><a href="#">Frontend vs Backend-diskussion</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <div class="new-thread">
+        <h3>Starta en ny tråd</h3>
+        <div class="form-group">
+          <div class="form-label">Trådens rubrik:</div>
+          <div class="form-input" contenteditable="true"></div>
+        </div>
+      
+        <div class="form-group">
+          <div class="form-label">Trådens innehåll:</div>
+          <div class="form-input" contenteditable="true"></div>
+        </div>
+      
+        <button class="submit-button">Skapa tråd</button>
+      </div>
+
+    </section>
+
 
   <footer>
     <p>2023 CodeCrafters.</p>
