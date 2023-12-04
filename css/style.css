@@ -61,10 +61,11 @@ footer {
 
 
 /* Main Content Styling */
+
 main {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
+  grid-template-rows: ;
   gap: 20px;
   padding: 20px;
 }
@@ -78,6 +79,7 @@ main {
 /* Creator Section Styling */
 .creator {
   text-align: center;
+  background-color: #fff;
 }
 
 .creator img {
@@ -86,18 +88,14 @@ main {
   height: auto;
   margin-bottom: 10px;
 }
-
 aside {
-  grid-column: 1 / span 1;
+  grid-column: 1 / 1 span;
 }
-
-
-
-
 
 /* Progress Section Styling */
 .progress {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .progress div {
@@ -107,7 +105,6 @@ aside {
 .progress img {
   width: 250px;
   height: 250px;
-  margin: 10px;
 }
 
 .progress p {
@@ -126,10 +123,10 @@ aside {
 
 /* Test Yourself Section Styling */
 .test-yourself {
-  margin-top: 20px;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #ffffff;
 }
 
 .testbutton {
@@ -149,6 +146,14 @@ textarea {
   width: 100%;
   height: 100px;
   margin-bottom: 10px;
+}
+
+.test-yourselfimg {
+  display: block;
+  margin: 0px;
+  width: 300px;
+  height: auto;
+  background-color: (255,255,255,0);
 }
 
 
