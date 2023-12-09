@@ -60,26 +60,33 @@ footer {
 
 
 
-/* Main Content Styling */
-
+/* Main Section Styling */
 main {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: ;
+  grid-template-columns: 3fr 1fr; 
+  grid-template-rows: repeat(3
+, auto);
   gap: 20px;
   padding: 20px;
+  grid-template-areas:
+    "se1 se2"
+    "se3 se3"
+    "foo foo";
 }
 
 /* Welcome Section Styling */
 .valkommen {
+  grid-area: se1;
   text-align: center;
   font-size: large;
 }
 
 /* Creator Section Styling */
 .creator {
+  grid-area: se2;
   text-align: center;
   background-color: #fff;
+  font-size: larger;
 }
 
 .creator img {
@@ -88,12 +95,10 @@ main {
   height: auto;
   margin-bottom: 10px;
 }
-aside {
-  grid-column: 1 / 1 span;
-}
 
 /* Progress Section Styling */
 .progress {
+  grid-area: se1; 
   text-align: center;
   margin-bottom: 0px;
 }
@@ -117,16 +122,12 @@ aside {
   font-size: 30px;
 }
 
-
-
-
-
 /* Test Yourself Section Styling */
 .test-yourself {
+  grid-area: se3;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #ffffff;
 }
 
 .testbutton {
@@ -155,7 +156,6 @@ textarea {
   height: auto;
   background-color: (255,255,255,0);
 }
-
 
 
 
